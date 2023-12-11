@@ -5,9 +5,9 @@ let tvSeries = {
     namesActors: []
 }
 let actors = prompt("Qui jouent dans cette série? ");
-while (actors != " "){
-    tvSeries.namesActor.push(actors);
-    actors = prompt("Qui jouent dans cette série? : ")
+while (actors !== ''){
+    tvSeries.namesActors.push(actors);
+    actors = prompt("Qui jouent dans cette série? : ");
 
 }
 return tvSeries;
